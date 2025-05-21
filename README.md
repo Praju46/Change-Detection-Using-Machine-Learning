@@ -4,8 +4,6 @@ This project was developed during a geospatial hackathon. The goal was to classi
 
  🔁 Workflow Overview
 
-```mermaid
-graph TD
   A[Satellite Images (2017, 2018)] --> B[Preprocessing (Stacking, FCC)]
   B --> C[Machine Learning Models]
   C --> D1[Classified Map 2017]
